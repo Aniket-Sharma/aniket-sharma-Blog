@@ -20,52 +20,134 @@
 
 		<link href="{% static 'vendor/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
 
-	    <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+		<link href="{% static 'vendor/bootstrap/css/bootstrap-grid.css' %}" rel="stylesheet">
+
+	  <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+
+		<!-- getting the different google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Macondo+Swash+Caps|Orbitron|Pacifico|Satisfy|Unica+One&display=swap" rel="stylesheet">
 
 
 	</head>
-	<body>
+	<!-- <body background="{% static 'images/background/pexels-photo-1020315.jpeg' %}" style ="background-size : 100vw 100vh "> -->
+	<body background="{% static 'images/background/pexels-photo-988872.jpeg' %}" style ="background-size : 100vw 100vh; font-family: Satisfy; ">
+	<!-- <body background="{% static 'images/jumbotron/apache.jpg' %}" style ="color: white; background-repeat: no-repeat; background-size : 100vw 100vh ; "> -->
+		<div class="navigation1">
+		<div class="top-bar" style="height: 12vh; ">
+				<div id="name-logo" style="font-family:Unica One; font-size: 3rem; ">
+						<a href="#" style="color:black"><b>aniket Sharma</b></a>
+    		</div>
+				<div id="social-id" style="padding-right: 10vw ; font-size: 3rem; padding-left: 35vw ; ">
+					<a href="https://twitter.com/AniketS66632761" target="_blank"><img src="{% static 'images/icons/tw.png' %}" width="30px" height="30px"></a>
+					<a href="https://www.facebook.com/profile.php?id=100011739582793" target="_blank"><img src="{% static 'images/icons/fb.png' %}" width="30px" height="30px"></a>
+					<a href="https://www.instagram.com/aniket_bhatt_sharma/" target="_blank"><img src="{% static 'images/icons/insta.png' %}" width="30px" height="30px"></a>
+					<a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/in.png' %}" width="30px" height="30px"></a>
+					<a href="mailto:abcd13017@gmail.com?" target="_blank"><img src="{% static 'images/icons/gm.png' %}" width="30px" height="30px"></a>
+				</div>
+		</div>
+		<!-- top fixed bar ends -->
+		<!-- navbar begins -->
 		<div class = "navbar-inner">
 		<nav class="navbar navbar-expand-xl navbar-dark">
-    	<a class="navbar-brand ml-5 rl-5" id="logo" href="#"><img src="logo_new.png" width="60px" height="60px"></a>
-      <!-- <a class="navbar-brand ml-5 rl-5" id="logo" href="#">AS</a> -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav" id="nav-boxed">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Portofolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+	</div>
 
-  <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-    <ul class="navbar-nav ">
-      <li class="nav-item ml-5">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item ml-5 ">
-        <a class="nav-link" href="#">Portofolio</a>
-      </li>
-      <li class="nav-item ml-5 ">
-        <a class="nav-link" href="#">About</a>
-      </li>
-			<li class="nav-item ml-5">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
-			<li class="nav-item ml-5">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-			<li class="nav-item ml-5">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-			<li class="nav-item ml-5 dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Professional Blog</a>
-          <a class="dropdown-item" href="#">Personal Blog</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <!--         <a class="navbar-brand ml-5" id="logo" href="#">SHARMA</a> -->
-  </nav>
-</div>
-<div class="container-fluid mt-3">
+	<!-- unscrolled navigation ends -->
+
+	<!-- navigation after scrolling  -->
+
+	<div class="wrap fixed-top" id="scrolled-nav" onscroll="myFunction()" style="z-index: 2; opacity: 1.0;  background : #2292b7; width: 100vw; display: none ; ">
+		<div class="top-bar" style="height: 12vh;">
+			<div id="name-logo" style="font-family:Unica One; font-size: 3rem; padding-left: 0 ; ">
+					<a href="#" style="color:black">aniket</a>
+			</div>
+				<div class = "navbar-inner">
+				<nav class="navbar navbar-expand-xl navbar-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav" id="nav-boxed">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Portofolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+				</nav>
+			</div>
+			</div>
+		</div>
+		<!-- top fixed bar ends -->
+		<!-- navbar begins -->
+
+	<!-- navbar ends -->
+	<!-- </div> -->
+	<!-- fixed position section ends -->
+
+				<!-- <script type="text/javascript">
+					document.getElementById("scrolled-nav").style.display="none"
+						$(window).on('scroll', function () {
+                if ($(window).scrollTop() <= $(window).height()/4)
+										$('.wrap').removeClass('fixed-top');
+                else
+										$('.wrap').addClass('fixed-top');
+            });
+				</script> -->
+
+				<!-- <script type="text/javascript">
+					document.getElementById("scrolled-nav").style.display="none"
+					function myFunction() {
+  					if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+							document.getElementById("scrolled-nav").style.display="block"
+  					}
+						else{
+							document.getElementById("scrolled-nav").style.display="none"
+						}
+					}
+				</script> -->
+
+<div class="container-fluid mt-3" id="block-container" style="font-family:Lobster; "	>
 
     {% bootstrap_messages %}
 
@@ -74,11 +156,64 @@
     {% endblock %}
 
 </div>
+<br>
 
+
+
+<!-- footer -->
+<!-- <footer>
+				<div style="background-color: #222227; color: #FFFFFF; border-radius: 2%;">
+						<br><br>
+						<div class="container">
+								<div class="row">
+										<div class="col-sm-2">
+												<img src="{% static 'iiitulogo.png' %}" alt="iiitu_logo" class="img-fluid">
+								</div>
+										<div id="footer_message" class="container col-sm-4">
+												<p>Thankyou for Visiting</p>
+												<ul class="list-unstyled list-inline text-center py-2">
+													<li class="list-inline-item">
+														<h5 class="mb-1">Leave your Comments/Suggestions : </h5>
+													</li>
+													<li class="list-inline-item">
+															<a href="#" class="btn btn-outline-white btn-rounded" style="color:white; border-color: white; border-radius: 20%;">
+															<h3>Post</h3></a>
+													</li>
+												</ul>
+
+											</div>
+										<div class="col-sm-3 text-center">
+												<h5>Contact me : </h5><br>
+													<a href="https://twitter.com/AniketS66632761" target="_blank"><img src="{% static 'images/icons/tw.png' %}" width="30px" height="30px"></a>
+													<a href="https://www.facebook.com/profile.php?id=100011739582793" target="_blank"><img src="{% static 'images/icons/fb.png' %}" width="30px" height="30px"></a>
+													<a href="https://www.instagram.com/aniket_bhatt_sharma/" target="_blank"><img src="{% static 'images/icons/insta.png' %}" width="30px" height="30px"></a>
+													<a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/in.png' %}" width="30px" height="30px"></a>
+													<a href="mailto:abcd13017@gmail.com?" target="_blank"><img src="{% static 'images/icons/gm.png' %}" width="30px" height="30px"></a>
+										</div>
+										<br><br>
+						</div>
+				</div>
+				</div>
+	</footer> -->
+
+	<!-- footer ends here -->
+
+	<!--($( window ).width() >= 1090)-->
+  <script>
+      $(window).on('scroll', function () {
+          if ($(window).scrollTop())
+              $('.bar').removeClass('position-fixed');
+          else
+              $('.bar').addClass('position-fixed');
+      });
+    </script>
+
+
+
+	<script src="{% static 'vendor/jquery/jquery-3.3.1.min.js' %}"></script>
 	<script src="{% static 'vendor/jquery/jquery-3.3.1.js' %}"></script>
 	<script src="{% static 'vendor/popper/popper.min.js' %}"></script>
 	<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.js' %}"></script>
 	<script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
-
 	</body>
 </html>
