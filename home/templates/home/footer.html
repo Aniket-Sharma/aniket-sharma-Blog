@@ -1,0 +1,69 @@
+{% load static %}
+
+<style>
+  .footer-icons {
+    opacity : 0.6 ;
+  }
+  .footer-icons:hover {
+    opacity : 1.0 ;
+  }
+  .footer-icons a {
+    padding-left : 2vw ;
+  }
+  .footer-icons a img {
+    width : 30px ;
+    height : 30px ;
+    opacity : 0.6 ;
+  }
+  .footer-icons a img:hover {
+    opacity : 1.0 ;
+    transform : scale(1.3) ;
+    transition : 1.0s ;
+  }
+  .footer-link {
+        text-align : center;
+        font-size: 1.5rem;
+        font-family : Vollkorn SC;
+        border-top: 2px solid #ccc;
+        padding-top: 2vh;
+    }
+    .footer-link a {
+        color: white;
+        padding-left : 1vw;
+        padding-right: 1vw;
+    }
+</style>
+<footer style="padding-top : 3vh; padding-bottom: 2vh ; text-align: center; background: black; margin-bottom: 1vh; ">
+	<div class="footer-tagline" style="color: white; font-size: 3em; font-family: Cookie; ">
+		Thankyou for being here.
+		</div>
+<div class="container">
+    <div class="footer-link">
+        <a href="{% url 'homepage' %}">Home</a>
+        <a href="{% url 'about' %}" >About</a>
+        <a href="{% url 'portofolio' %}">Portofolio</a>
+        <a href="#">Resume</a>
+        <a href="{% url 'projects' %}" >Projects</a>
+        <a href="{% url 'blog' %}">Blog</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </div>
+<br>
+
+<div class="footer-icons">
+    <a href="https://twitter.com/AniketS66632761" target="_blank"><img src="{% static 'images/icons/white/tw.png' %}" width="30px" height="30px"></a>
+    <a href="https://www.facebook.com/profile.php?id=100011739582793" target="_blank"><img src="{% static 'images/icons/white/fb.png' %}" width="30px" height="30px"></a>
+    <a href="https://www.instagram.com/aniket_bhatt_sharma/" target="_blank"><img src="{% static 'images/icons/white/insta.png' %}" width="30px" height="30px"></a>
+    <a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/white/in.png' %}" width="30px" height="30px"></a>
+    <a href="mailto:abcd13017@gmail.com?" target="_blank"><img src="{% static 'images/icons/white/gm.png' %}" width="30px" height="30px"></a>
+
+    <a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/white/yt.png' %}" width="30px" height="30px"></a>
+    <a href="https://github.com/Aniket-Sharma" target="_blank"><img src="{% static 'images/icons/white/git.png' %}" width="30px" height="30px"></a>
+
+</div>
+<br>
+<p class="text-center">Copyright @2019 | Designed by <a href="{% url 'portofolio' %}">Aniket Sharma</a></p>
+
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>

@@ -1,0 +1,122 @@
+{% extends 'home/homepage.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block content %}
+<!-- Grids system -->
+<!-- grid1 holds the texts -->
+<script type="text/javascript">
+    // document.body.style.backgroundImage = "url({% static 'images/background/pexels-photo-988872.jpeg' %})";
+    // document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1494249465471-5655b7878482?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)";
+    document.body.style.backgroundImage = "url({% static 'images/background/raven.jpg' %})" ;
+</script>
+  <div class="page-intro">
+        <h3 style="font-size:2vw ;">My Mom tells me to make new friends</h3>
+        <h1 style="font-size:6vw ;"><b> SAY HELLO ! </b></h1>
+  </div>
+<br>
+    <div class="mailto parallax">
+        <h2>Let's get together</h2>
+        <form action="#" method="post" id="sign-in">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <div style="text-align: center">
+            <button class="btn btn-success">Send the message</button>
+            </div>&emsp;
+        </form>
+    </div>
+<style>
+    .Direct-link a{
+        border-radius : 10px ;
+    }
+    .Direct-link a:hover{
+        transform: translateY(-15px);
+        transition: 2.8s ;
+    }
+    .Direct-link a img {
+        width: 10vw ;
+        height : 10vw ;
+        box-sizing : border-box ;
+        padding: 30% 30% 30% 30%;
+        margin : 1vh 1vw 1vh 1vw ;
+        object-fit : contain ;
+        background : #DDF3ED ;
+        border-radius : 5px ;
+        border : 2px solid black ;
+    }
+    .Direct-link a img:hover{
+        background : black ;
+        border : 3px dotted black ;
+        transform : scale(1.1);
+        transition : 2.0s ;
+    }
+    .Direct-link a:nth-child(odd):hover{
+        background : #5DAADE ;
+    }
+    .Direct-link a:nth-child(even):hover{
+        background : green ;
+    }
+    . {
+        animation : change 15.0s infinite ;
+        //background : url(https://images.unsplash.com/photo-1494249465471-5655b7878482?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) ;
+    }
+    .parallax {
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	@keyframes change {
+      0% {
+        color : black ;
+      }
+      50% {
+        color : white  ;
+        background : transparent ;
+      }
+      100% {
+        color : black ;
+      }
+    }
+</style>
+<div class="All-Profile parallax" style="background">
+    <div class="Direct-link">
+        <!--<h2 style="font-family: Orbitron; text-decoration:underline ;">Sometimes its convenient to use social media </h2>-->
+        <h2 style="font-family: Graduate; text-decoration:underline ;">Let's get social</h2><br>
+        <div class="d-flex justify-content-lg-center" style="flex-direction: row ; flex-wrap: wrap ; justify-content : space-evenly ;">
+            <a href="https://www.instagram.com/aniket_bhatt_sharma/" target="_blank"><img src="{% static 'images/icons/Facebook-color.png' %}" ></a>
+            <a href="https://wa.me/919805663099" target="_blank"><img src="{% static 'images/icons/Whatsapp-color.png' %}"></a>
+            <a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/Messenger-color.png' %}"></a>
+            <a href="https://www.linkedin.com/in/aniket-sharma-199a8215a/" target="_blank"><img src="{% static 'images/icons/Hanghout-color.png' %}"></a>
+            <a href="skype:aniketholi23?chat" target="_blank"><img src="{% static 'images/icons/Skype-color.png' %}"></a>
+        </div>
+    </div>
+    <br>
+<div class="profile">
+<h2 style="font-family: Graduate; text-decoration:underline ;">Check out my other profiles  </h2>
+    <div class="justify-content-lg-center d-flex" style="flex-direction: row ; flex-wrap: wrap ; ">
+        <div class="profile-item" style="text-align: center; display: inline-block; width : 350px ; ">
+                <a href="https://www.hackerearth.com/@aniket147" target="_blank">
+            <div class="profile-icon">
+                <img src="data:image/png;base64,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">
+            </div>
+            <div class="profile-description">
+                <h3>Hacker-earth</h3></a>
+                <h5>One of the most visited sites on daily basis. You'll find mostly mathematical problems solved using
+                    computer programs. Do check it out (If you're into this kind of stuff).</h5>
+            </div>
+        </div>
+        <div class="profile-item" style="text-align: center; display: inline-block; width : 350px ;">
+            <a href="https://www.github.com/Aniket-Sharma" target="_blank">
+            <div class="profile-icon">
+                <img src="data:image/png;base64,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">
+            </div>
+            <div class="profile-description">
+                <h3>Git-hub</h3></a>
+                <h5>Checkout my stupid Projects. I prefer to keep most of my Projects private but still you would be able
+                    see few projects and could pitch me some ideas. </h5>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

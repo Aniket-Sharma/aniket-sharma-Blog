@@ -1,0 +1,154 @@
+{% extends 'home/homepage.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Grids system -->
+<!-- grid1 holds the texts -->
+<script type="text/javascript">
+    // document.body.style.backgroundImage = "url({% static 'images/background/portofolio.jpeg' %})";
+    document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=757&q=80)";
+</script>
+  <div class="page-intro">
+        <h3 style="font-size:2vw ;">Discover my professional work life </h3>
+      <h1 style="font-size:6vw ;"><b>MY SKILLS & PROFESSION</b></h1>
+  </div>
+<br>
+  <div class = "layer-2">
+    <h2>A little about myself</h2><br>
+      <p><h3>
+        <!--I'm currently in 4th year of my college degree. <br>-->
+         <!--a place I'm lucky to share with Dalai Lama. -->
+        I'm pursuing B.tech+M.tech (Dual Degree) in Computer Science and Engineering from
+        National Institute of Technology, Hamirpur.
+        I love coding and usually work alone.
+  </h3></p>
+  </div>
+<style>
+    .Skill-Container {
+        background : aliceblue ;
+        border-radius : 10px ;
+        padding : 5vh 3vw 5vh 3vw ;
+        font-family : Cinzel ;
+    }
+    .Skill-Container h3{
+        text-decoration : underline ;
+    }
+    .Interest {
+        background : aliceblue;
+        border-radius : 10px ;
+        margin : 1vh 0vw 1vh 0vw ;
+        padding : 5vh 1vw 5vh 1vw ;
+        text-align : center ;
+        font-family : Vollkorn SC ;
+    }
+    .single-interest {
+        justify-content : space-evenly ;
+        flex-direction : row ;
+        display : inline-block ;
+        border-radius : 10px ;
+        border : 1px solid black ;
+        padding : 5vh 1vw 5vh 1vw ;
+        margin : 1vh 1vw 1vh 1vw ;
+        width : 400px ;
+        min-height : 40vh ;
+        background : silver;
+        box-shadow: 10px 10px 10px 1px grey;
+=    }
+    .single-interest h4 {
+        font-family : Graduate ;
+    }
+    .single-interest h5 {
+        font-family : Stylish ;
+    }
+    .single-interest:hover{
+        background : rgba(0,0,0,1.0);
+        color : white ;
+        box-shadow: 10px 10px 10px 1px lime;
+    }
+
+    .Project {
+        //background : #CCFF99;
+        background : aliceblue ;
+        border-radius : 10px ;
+        margin : 1vh 0vw 1vh 0vw ;
+        padding : 5vh 2vw 5vh 2vw ;
+        font-family : Vollkorn SC ;
+    }
+    .single-project {
+        justify-content : left ;
+        flex-direction : row ;
+        padding : 2vh 1vw 2vh 1vw ;
+        margin : 1vh 20vw 1vh 1vw ;
+    }
+</style>
+    <div class="Skill-Container">
+        <h1 style="text-align: center;">Skills</h1><hr>
+        <div class="row d-flex" style="justify-content: space-around; ">
+            <div class="column">
+                <h3>Day to Day Working Stack</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Vue js</li>
+                    <li>Pygame</li>
+                    <li>Bootstrap</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>SOLite</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Node.js</li>
+                    <li>jQuery</li>
+                    <li>Objective-C</li>
+                    <li>Blender - Animations</li>
+                    <li>Inkscape - Logo Design </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="Interest">
+    <h1>Interests</h1><hr>
+    <div class="d-flex" style="flex-direction: row ; flex-wrap: wrap ; justify-content: space-evenly; ">
+        {% for interest in interests %}
+        <div class="single-interest">
+            <div class="flip">
+                <h4>{{ interest.title }}</h4><hr>
+                <h5>{{ interest.summary }} </h5>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+    <div class = "Project" >
+        <h1 style="text-align:center;">Projects</h1>
+        {% for category, value in projects.items %}
+        <div class = "Category"><hr>
+            <h3>{{ category.title }}</h3>
+             <div class="d-flex" style="flex-direction: row ; flex-wrap: wrap ; ">
+                 <ul>
+            {% for project in value %}
+                 <li class="single-project">
+                     <h4>{{ project.title }}</h4>
+                     <p style="font-family: Stylish; font-size: 1.4rem ;">{{ project.summary }}</p>
+                     <a href="{% url 'blog' %}#link-project-blog"><button class="btn btn-secondary"> Project Updates</button></a>
+                     <a href={{project.blog}} target="_blank"><button class="btn btn-info"> Source files</button></a>
+                 </li>
+            {% endfor %}
+                 </ul>
+             </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="Resume">
+        See what I can do<br>
+        <a href="#"> <button class="btn">Get my Resume</button></a><br>
+        <div style="font-family: Tangerine; font-size: 1.2em;">{It doesn't look very professional at the moment but I'm working on it.}</div>
+    </div>
+{% endblock %}

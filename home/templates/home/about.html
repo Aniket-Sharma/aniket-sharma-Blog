@@ -1,0 +1,183 @@
+{% extends 'home/homepage.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Grids system -->
+<!-- grid1 holds the texts -->
+<script type="text/javascript">
+  document.body.style.backgroundImage = "url({% static 'images/background/Ragnar.jpg' %})";
+
+    // document.body.style.backgroundImage = "url({% static 'images/jumbotron/code.jpg' %})";
+    // document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)";
+</script>
+
+<style>
+    .Year {
+        border-radius : 10px ;
+        border : 1px solid white ;
+        padding : 5vh 1vw 0vh 1vw ;
+        margin : 1vh 0 1vh 0 ;
+        text-align : center ;
+        font-family : Vollkorn SC ;
+        color : white ;
+        background : rgba(51,51,51,0.3);
+    }
+    .Timeline {
+        padding : 1vh 1vw 1vh 1vw ;
+        margin : 1vh 0 1vh 0 ;
+        font-family : Cookie ;
+        text-align : center ;
+        max-height : 100vh ;
+        overflow-x : hidden ;
+    }
+    .Timeline h2 {
+        font-family : Economica;
+    }
+    .Timeline h3 {
+        font-family : Stylish  ;
+    }
+    .Event {
+        cursor : pointer ;
+        text-align: left ;
+    }
+    .Event .right{
+        overflow-x : hidden ;
+        overflow-y : hidden;
+        background : white ;
+        color : black ;
+        margin : 0vh 20vw 0vh 2vw ;
+        padding : 1vh 2vw 1vh 2vw ;
+
+        position : relative ;
+        left : -100vw ;
+        display : none ;
+        box-shadow: 10px 10px 10px 1px black;
+        opacity : 0.8 ;
+    }
+    .Event .left {
+        text-align : center ;
+    }
+    .Event:hover:nth-child(odd) > .right{
+        text-align : left ;
+        display : block ;
+        animation: moveleft 2s normal forwards;
+    }
+    .Event:hover:nth-child(even) > .right{
+        display : block ;
+        animation: moveright 2s normal forwards;
+    }
+    @keyframes moveleft {
+      0% {
+        left : -100vw ;
+      }
+      100% {
+        left : 0vw  ;
+      }
+    }
+    @keyframes moveright {
+      0% {
+        left : 100vw ;
+      }
+      100% {
+        left : 20vw  ;
+      }
+    }
+    .Event:hover > .left {
+        display : none ;
+    }
+    .right:hover {
+        overflow-y: auto;
+    }
+    .Story {
+        border-radius : 10px ;
+        padding : 5vh 1vw 5vh 1vw ;
+        margin : 1vh 0 1vh 0 ;
+        background : aliceblue ;
+        text-align : center ;
+        font-family : Vollkorn SC ;
+    }
+    .Detail {
+        border-radius : 10px ;
+        padding : 5vh 2vw 5vh 2vw ;
+        margin : 1vh 0 1vh 0 ;
+        background : aliceblue ;
+        font-family : Vollkorn SC ;
+    }
+    .Single-Detail{
+        padding-right : 20vw ;
+    }
+    .parallax {
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+</style>
+  <div class="page-intro">
+        <h3 style="font-size:2vw ;">Know who I am as a person</h3>
+        <h1 style="font-size:6vw ;"><b> MY LIFE AND PASSION </b></h1>
+  </div>
+<br>
+  <div class = "layer-2">
+    <h2>A little about myself</h2><br>
+    <p><h3>Born in the rainy lands of Dharamshala.
+         <!--a place I'm lucky to share with Dalai Lama. -->
+        Got my Primary Education in the hilly tribes of Gehra, Chamba.
+        Migrated to Holi, Chamba and spend other nine years of my life there.
+        Then moved to Nurpur, kangra and again to Hamirpur to attend the college.
+    </h3></p>
+  </div>
+
+    <div class = "Detail scrollable">
+        <h1 style="text-align: center ;">Personal Details</h1><hr>
+        <ul>
+        <div class="Single-Detail">
+        {% for i in details %}
+            <li>
+            <h3>{{ i.title }}</h3><p style="font-family: Special Elite;"> {{ i.detail }} </p><hr>
+            </li>
+        {% endfor %}
+        </div>
+        </ul>
+    </div>
+    <style>
+
+    </style>
+    <div class="Year" id="my-timeline">
+        <h1>My Timeline</h1><h5 style="font-family:Stylish;">Hover over the date to see the event</h5> style="font-family:Stylish;"><hr>
+        <div class="Timeline scrollable">
+            {% for i in timeline %}
+            <div class="Event">
+                <div class="left">
+                    {% if i.date != None %}
+                        <h2>{{ i.date }} : {{ i.title }}</h2>
+                    {% else %}
+                        <h2>{{ i.year }} : {{ i.title }}</h2>
+                    {% endif %}
+                </div>
+                <div class="right">
+                    <h3>{{ i.title }}</h3>
+                    <h4 style="font-family:Stylish;"> {{ i.summary }} </h4>
+                </div>
+                <hr>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="Story">
+        <h1>Some Stories</h1><hr>
+        <div class="Experience">
+            {% for i in experience %}
+                {% if i.privacy == 'public' and i.status == 'published' %}
+                    <h2> {{ i.title }}</h2>
+                    <h3>{{ i.summary }}</h3>
+                    <p>{{ i.story }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <hr>
+        <h2>Thats all I have for now, I'll post more later.</h2>
+    </div>
+
+{% endblock %}
