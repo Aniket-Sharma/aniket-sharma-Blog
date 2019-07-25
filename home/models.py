@@ -67,10 +67,10 @@ class Experience(models.Model):
     title = models.CharField(max_length=500)
     summary = models.TextField()
     story = models.TextField()
-    bg_img = models.ImageField(upload_to='content/media/Images/Experience/bg_imgs/', null=True, blank=True)
-    img = models.ImageField(upload_to='content/media/Images/Experience/', null=True, blank=True)
+    bg_img = models.URLField(null=True, blank=True)
+    img = models.URLField(null=True, blank=True)
 
-    created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(auto_now_add=True, editable=True)
     privacy = models.CharField(max_length=100, choices=PRIVACY_OPTIONS, default='public')
     status = models.CharField(max_length=100, choices=STATUS, default='published')
 

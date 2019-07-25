@@ -4,12 +4,65 @@
 {% block content %}
 <!-- Grids system -->
 <!-- grid1 holds the texts -->
-<!--<script type="text/javascript">-->
-    <!--document.body.style.backgroundImage = "url(https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500)" ;-->
-<!--</script>-->
+<script type="text/javascript">
+    <!--document.body.style.backgroundImage = "url({% static 'images/jumbotron/bagora.jpg' %})";-->
+</script>
+
+<style>
+    .About{
+        margin : 1vh 0vw 1vh 0vw ;
+        font-family : Vollkorn SC ;
+        background: rgba(215,235,255);
+    }
+    .About p {
+        font-family : Cinzel ;
+    }
+    .Story {
+        margin : 1vh 0vw 1vh 0vw ;
+        padding : 5vh 10vw 5vh 10vw ;
+        font-family : Vollkorn SC ;
+        background: rgba(230,253,200);
+    }
+    .About .left {
+        min-width : 500px ;
+        width: 50%;
+        overflow: hidden;
+        object-fit: contain;
+        padding : 0vh 100px 0vh 100px ;
+    }
+    .About .right {
+        width: 50%;
+        min-width : 500px ;
+    }
+    .story-image {
+        overflow : hidden ;
+    }
+    .story-image img{
+        -webkit-transition: all linear 1.2s;
+    }
+    .story-image:hover > img{
+       transform : translateY(-100%) ;
+    }
+    .story-image:hover > .story-title{
+       transform : translateY(-100%) ;
+       background : rgba(250,240,231,0.9);
+    }
+    .Story .story-title {
+        background : rgba(250,240,231,0.1);
+        width: 100%;
+        height: 100%;
+        border: 1px solid black ;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size : 1.2rem ;
+
+        -webkit-transition: all linear 1s;
+    }
+</style>
   <div class="page-intro">
-        <h3 style="font-size:2vw ;">I've been waiting for you </h3>
-        <h1 style="font-size:6vw ;"><b> YOU MADE IT </b></h1>
+        <h3 style="font-size:2vw ;">You can guess the type of content just by two words.</h3>
+        <h1 style="font-size:6vw ;"><b> HELLO WORLD ! </b></h1>
   </div>
 <br>
 
@@ -17,14 +70,61 @@
     <h2>I know this site looks a little tacky</h2><br>
     <p><h3 style="font-family: Satisfy ;">I'm working on it. I wanted to learn so rather than using
      templates I coded almost every single element you see here. I got very tired and sick of working on this.<br> So
-     for now this is it. It'll be improved as soon as possible .If you have any suggestions do let me know, I'd love to hear them.
+     for now this is it. It'll be improved as soon as possible .If you have any suggestions do let me know, I'll do my best to improve on that.
     </h3></p>
  </div>
 
-    <div class="Resume">
-        See what I can do<br>
-        <a href="#"> <button class="btn">Get my Resume</button></a><br>
-        <div style="font-family: Tangerine; font-size: 1.2em;">{It doesn't look very professional at the moment but I'm working on it.}</div>
+ <div class="About">
+     <div class="d-flex" style="align-items: center; justify-content: flex-end; flex-wrap: wrap;">
+         <div class="left">
+             <h2>About me</h2><hr>
+             <p>I'm a computer science and engineering student at National Institute of Technology, Hamirpur. I haven't
+                 chosen any specific field for now. I work on web development, Animation and Game development related projects. </p>
+         </div>
+         <div class="right">
+             <img src= "{% static 'images/jumbotron/bagora.jpg' %}" width="100%" height="100%">
+         </div>
+     </div>
+     <div class="d-flex" style="align-items: center; justify-content: flex-start; flex-wrap: wrap;">
+         <div class="right" >
+             <img src= "{% static 'images/jumbotron/apache.jpg' %}" width="100%" height="100%">
+         </div>
+         <div class="left">
+             <h3>Something you didn't know</h3><hr>
+             <p>By day : I'm an ordinary student, attending classes trying to keep myself awake. But by night , I dress up as batman and fight crime !! and sometime in between all this I spend some time learning new things .</p>
+         </div>
+     </div>
+     <div class="d-flex" style="align-items: center; justify-content: flex-end; flex-wrap: wrap;">
+         <div class="left">
+             <h2>Love Adventuring</h2><hr>
+             <p>I like doing stupid things which I prefer to call adventures. A lot of time I end up with minor injuries due to my habit to take unnecessary risks,
+             but in my opinion injuries are worth it if you have fun.</p>
+         </div>
+         <div class="right">
+             <img src= "{% static 'images/jumbotron/in_zoo.jpg' %}" width="100%" height="100%">
+         </div>
+     </div>
+ </div>
+
+<div class="Story" style="text-align: center;">
+    <h1>Every picture has a story behind it</h1><hr>
+    <div class="d-flex" style="justify-content: center; align-items: stretch; flex-wrap: wrap;">
+    {% for experience in experiences %}
+            <div class="story-image" style="display: inline-block; width: 33%; min-width: 300px; margin : 0.5% 0.5% 0.5% 0.5%; height: 250px ;">
+                <img src= {{experience.img}} width="100%" height="100%">
+                <div class="story-title" style="padding : 1% 10% 1% 10%;">
+                    <p>{{experience.title}} <br><br><a href='about'><button class="btn btn-info">Read full Story...</button></a></p>
+                </div>
+            </div>
+    {% endfor %}
     </div>
+</div>
+
+
+ <div class="Resume">
+    See what I can do<br>
+    <a href="#"> <button class="btn">Get my Resume</button></a><br>
+    <div style="font-family: Tangerine; font-size: 1.2em;">{It doesn't look very professional at the moment but I'm working on it.}</div>
+ </div>
 
 {% endblock %}

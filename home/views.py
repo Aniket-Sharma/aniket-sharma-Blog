@@ -28,6 +28,13 @@ class view_portofolio(TemplateView):
 class view_home_page(TemplateView):
     template_name = 'home/home.html'
 
+    def get(self, request):
+        experiences = Experience.objects.all()
+
+        args = {'experiences': experiences}
+
+        return render(request, self.template_name, args)
+
 class view_about_page(TemplateView):
     template_name = 'home/about.html'
 

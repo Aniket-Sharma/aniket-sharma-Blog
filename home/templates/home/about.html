@@ -20,7 +20,7 @@
         text-align : center ;
         font-family : Vollkorn SC ;
         color : white ;
-        background : rgba(51,51,51,0.3);
+        background : rgba(51,51,51);
     }
     .Timeline {
         padding : 1vh 1vw 1vh 1vw ;
@@ -112,6 +112,15 @@
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		}
+
+	.Story-post {
+            text-align : left ;
+            font-family : Special Elite ;
+            padding : 1vh 1vw 1vh 1vw ;
+            margin : 0vh 10% 0vh 2% ;
+            background : rgba(205,200,200,0.6);
+        }
+
 </style>
   <div class="page-intro">
         <h3 style="font-size:2vw ;">Know who I am as a person</h3>
@@ -144,7 +153,7 @@
 
     </style>
     <div class="Year" id="my-timeline">
-        <h1>My Timeline</h1><h5 style="font-family:Stylish;">Hover over the date to see the event</h5> style="font-family:Stylish;"><hr>
+        <h1>My Timeline</h1><h5 style="font-family:Stylish;">Hover over the date to see the event</h5><hr>
         <div class="Timeline scrollable">
             {% for i in timeline %}
             <div class="Event">
@@ -168,15 +177,19 @@
     <div class="Story">
         <h1>Some Stories</h1><hr>
         <div class="Experience">
-            {% for i in experience %}
+            {% for i in experiences %}
                 {% if i.privacy == 'public' and i.status == 'published' %}
-                    <h2> {{ i.title }}</h2>
-                    <h3>{{ i.summary }}</h3>
-                    <p>{{ i.story }}</p>
+                <div class="Story-post" style="font-size:2rem;">
+                    <div class = "only-so-big" >
+                        <h3 style="font-family: Cinzel;"> {{ i.title }}</h3><hr>
+                        <h4 style="font-family: Economica;">{{ i.summary }}</h4><hr>
+                        <p style="font-size: 1.3rem;">{{ i.story }}</p>
+                    </div>
+                </div>
+                    <hr><hr>
                 {% endif %}
             {% endfor %}
         </div>
-        <hr>
         <h2>Thats all I have for now, I'll post more later.</h2>
     </div>
 
