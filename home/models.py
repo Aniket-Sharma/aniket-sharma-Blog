@@ -175,3 +175,12 @@ class File(models.Model):
     title = models.CharField(max_length=200)
     file = models.FileField(upload_to='content/media/Site-Data/Images/')
 
+class Comment(models.Model):
+    sender = models.CharField(max_length=100)
+    caption = models.TextField()
+    img = models.URLField(null=True, blank=True)
+    ved = models.URLField(null=True, blank=True)
+    url_caption = models.CharField(max_length=100, null=True, blank=True)
+    link = models.URLField(null=True, blank=True)
+
+    posted_at = models.DateTimeField(auto_now_add=True)

@@ -10,7 +10,9 @@ urlpatterns = [
     path('portofolio/', view_portofolio.as_view(), name='portofolio'),
     path('projects/', view_projects.as_view(), name='projects'),
     path('blog/', my_blog.as_view(), name='blog'),
-    path('contact/',view_contact_page.contact_us, name='contact'),
+    path('contact/', view_contact_page.contact_us, name='contact'),
+
+    path('comment/', post_comment, name='comment')
 ]
 
 if settings.DEBUG:

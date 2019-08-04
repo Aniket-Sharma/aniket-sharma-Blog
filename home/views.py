@@ -1,10 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from django.http import HttpResponse
 from django.core.mail import send_mail
 
 from .models import *
-from .forms import ContactForm
+from .forms import ContactForm, CommentForm
 
 class view_portofolio(TemplateView):
 
@@ -29,11 +29,32 @@ class view_home_page(TemplateView):
     template_name = 'home/home.html'
 
     def get(self, request):
+
+        commentform = CommentForm()
+
+        public_comment = Comment.objects.all().order_by('-posted_at')
+
         experiences = Experience.objects.all()
 
-        args = {'experiences': experiences}
+        project_blog_posts = Project_Blog_Post.objects.all().order_by('-posted_at')
+
+        personal_blog = Personal_Blog.objects.filter(privacy='public').order_by('-posted_at')
+
+        args = {'personal_blog': personal_blog, 'project_blog_posts': project_blog_posts, 'experiences': experiences,
+                'Comments': public_comment, 'form': commentform}
 
         return render(request, self.template_name, args)
+
+def post_comment(request):
+
+    form = CommentForm(request.POST)
+
+    form.save()
+
+    print(request.POST['caption'])
+
+    return redirect('homepage')
+
 
 class view_about_page(TemplateView):
     template_name = 'home/about.html'
@@ -90,8 +111,22 @@ class view_contact_page(TemplateView):
                 sender_name = form.cleaned_data['name']
                 sender_email = form.cleaned_data['email']
                 message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
-                send_mail('New Enquiry', message, sender_email,['admin@example.com'] )
+                send_mail('New Enquiry', message, sender_email, ['admin@example.com'])
         else:
             form = ContactForm()
 
         return render(request, 'home/contact.html', {'form': form})
+#
+# class my_jumbotron(TemplateView):
+#     template_name = 'home/.html'
+#
+#     def get(self, request):
+#
+#         project_blog_posts = Project_Blog_Post.objects.all().order_by('-posted_at')
+#
+#         personal_blog = Personal_Blog.objects.filter(privacy='public').order_by('-posted_at')
+#
+#         args = {'personal_blog': personal_blog, 'project_blog_posts': project_blog_posts}
+#
+#         return render(request, self.template_name, args)
+
