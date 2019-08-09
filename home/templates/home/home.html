@@ -5,13 +5,16 @@
 <!-- Grids system -->
 <!-- grid1 holds the texts -->
 <script type="text/javascript">
-    <!--document.body.style.backgroundImage = "url({% static 'images/jumbotron/bagora.jpg' %})";-->
+    document.body.style.backgroundImage = "url({% static 'images/8-logo.svg' %})";
 </script>
 
 <style>
     body {
         font-family : Vollkorn SC ;
-    }
+        background-repeat: repeat ;
+        background-attachment: dynamic ;
+        background-size : 50vw 90vh ;
+	}
     .About{
         margin : 1vh 0vw 1vh 0vw ;
         font-family : Vollkorn SC ;
@@ -141,7 +144,7 @@
         <hr>
         <div class="d-flex" style="flex-wrap: wrap ;">
                 <div class="scrollable personal-blog">
-                    <h4 style="text-align:center;">Recent Blog Posts <a href="{% url 'blog' %}" target="_blank"  style="color: white;">&nearrow;</a></h4> <hr style="border-top: 1px solid white;">
+                    <h4 style="text-align:center;">Recent Blog Posts <a href='blog#link-personal-blog' target="_blank"  style="color: white;">&nearrow;</a></h4> <hr style="border-top: 1px solid white;">
                 {% for post in personal_blog %}
                     {% if post.category == 'update' or post.category == 'one_liner' or post.category == 'graffiti' or post.category == 'political' %}
                         <div class="unfoldable">
@@ -153,7 +156,7 @@
                 {% endfor %}
                 </div>
                 <div class="scrollable project-update">
-                    <h4 style="text-align:center;">Project Updates <a href="{% url 'blog' %}" target="_blank"  style="color: white;">&nearrow;</a></h4>
+                    <h4 style="text-align:center;">Project Updates <a href='blog#link-project-blog' target="_blank"  style="color: white;">&nearrow;</a></h4>
                     <hr style="border-top: 1px solid white;">
                 {% for post in project_blog_posts %}
                     <div class="unfoldable">
@@ -175,7 +178,7 @@
                  chosen any specific field for now. I work on web development, Animation and Game development related projects. </p>
          </div>
          <div class="right">
-             <img src= "{% static 'images/jumbotron/bagora.jpg' %}" width="100%" height="100%">
+             <img src= "{% static 'images/jumbotron/dharmashala.jpg' %}" width="100%" height="100%">
          </div>
      </div>
      <div class="d-flex" style="align-items: center; justify-content: flex-start; flex-wrap: wrap;">
@@ -207,7 +210,7 @@
             <div class="story-image" style="display: inline-block; width: 33%; min-width: 300px; margin : 0.5% 0.5% 0.5% 0.5%; height: 250px ;">
                 <img src= {{experience.img}} width="100%" height="100%">
                 <div class="story-title" style="padding : 1% 10% 1% 10%;">
-                    <p>{{experience.title}} <br><br><a href='about'><button class="btn btn-info">Read full Story...</button></a></p>
+                    <p>{{experience.title}} <br><br><a href='about#my-stories' ><button class="btn btn-info">Read full Story...</button></a></p>
                 </div>
             </div>
     {% endfor %}
@@ -232,18 +235,42 @@
         <div class="scrollable Public-Comment" style="width: 50%;">
              {% for comment in Comments %}
                 <div class="single-comment">
-                    <div class="d-flex"><p>[ {{ comment.posted_at }} ] &emsp; <h5>{{comment.sender}} :</h5> </p></div>
-                  <p>{{ comment.caption }}</p>
+                    <div class="d-flex">
+                        {% if comment.sender == 'admin' %}
+                            <div class="admin-single-comment">
+                                <h5>[ {{ comment.posted_at }} ]&emsp;<b>ANIKET SHARMA(admin) :</b> </h5>
+                                <p>{{ comment.caption }}</p>
+                                {% if comment.img %}
+                                    <img src={{comment.img}} border="0" width="100%">
+                                {% endif %}
+                                {% if comment.ved %}
+                                    <iframe width="100%" height="315"
+                                        src={{comment.ved}}
+                                        allowfullscreen="allowfullscreen">
+                                    </iframe>
+                                {% endif %}
+                                {% if comment.link %}
+                                    <p>{{comment.url_caption}}<a href="{{comment.link}}">{{comment.link}}</a></p>
+                                {% endif %}
+                            </div>
+                        {% else %}
+                            <div class="public-single-comment">
+                                <h5>[ {{ comment.posted_at }} ] &emsp; <b>{{comment.sender}} :</b> </h5>
+                                <p>{{ comment.caption }}</p>
+                            </div>
+                        {% endif %}
+                    </div>
                 </div>
                 <hr>
              {% endfor %}
         </div>
-
     </div>
 </div>
+
+
  <div class="Resume">
     See what I can do<br>
-    <a href="#"> <button class="btn">Get my Resume</button></a><br>
+    <a href="https://docs.google.com/document/d/1HgYU3JiOW7sKxBEA86hWoA0v0QXtoSYLgvd-rE1Hdtk/edit?usp=sharing" target="_blank"> <button class="btn">Get my Resume</button></a><br>
     <div style="font-family: Tangerine; font-size: 1.2em;">{It doesn't look very professional at the moment but I'm working on it.}</div>
  </div>
 

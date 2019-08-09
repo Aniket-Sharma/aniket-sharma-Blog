@@ -1,6 +1,5 @@
 from django.db import models
 from django.db.models.query import QuerySet
-from django_group_by import GroupByMixin
 #
 # from django.db import models
 # from django.utils import timezone
@@ -30,11 +29,8 @@ from django_group_by import GroupByMixin
 
 # About Section
 
-class BookQuerySet(QuerySet, GroupByMixin):
-    pass
 
 class TimeLine(models.Model):
-    objects = BookQuerySet.as_manager()
     PRIVACY_OPTIONS = (
         ('public', 'Public'),
         ('mid', 'Email-Identification-Required'),
