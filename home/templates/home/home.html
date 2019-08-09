@@ -9,6 +9,9 @@
 </script>
 
 <style>
+    body {
+        font-family : Vollkorn SC ;
+    }
     .About{
         margin : 1vh 0vw 1vh 0vw ;
         font-family : Vollkorn SC ;
@@ -61,15 +64,59 @@
     }
     .Comment-box {
         margin : 1vh 0vw 1vh 0vw ;
-        padding : 5vh 1vw 5vh 1vw ;
         font-family : Vollkorn SC ;
-        background: rgba(230,253,200,0.5);
+        background: silver ;
+    }
+    .Comment-box {
+        padding : 0.1vh 1vw 0.1vh 1vw ;
+    }
+    .Comment-box .scrollable {
+        border : 1px solid white ;
+        margin : 0.1vh 0vw 0.1vh 0vw ;
+        padding : 1vh 0.2vw 1vh 0.2vw ;
+        min-width : 400px ;
+        width :  50% ;
+        overflow : hidden ;
+        background : black ;
+        color : white ;
+    }
+    .Comment-box .scrollable:hover {
+        overflow : auto ;
     }
     .personal-blog {
         font-size : 1.3rem;
     }
     .project-update{
         font-size : 1.3rem;
+    }
+    .unfoldable {
+        color : white ;
+        background : black ;
+    }
+    .unfoldable:hover{
+        background : white ;
+        color : black;
+    }
+    .Public-Comment {
+    }
+    .Comments {
+        padding : 5% 5% 5% 5% ;
+        overflow : hidden ;
+        background : rgba(40,56,43,0.5) ;
+        border : 1px solid white ;
+    }
+    .Comment-Section{
+        margin : 1vh 0vw 1vh 0vw ;
+        padding : 5vh 1vw 5vh 1vw ;
+        font-family : Vollkorn SC ;
+        background: rgba(230,253,200);
+    }
+    .Public-Comment {
+        background : rgba(40,56,43,0.5) ;
+        font-family : Special Elite ;
+        margin : 0 0 0 0 ;
+        padding : 2% 2% 2% 2% ;
+        border : 1px solid white ;
     }
 </style>
   <div class="page-intro">
@@ -87,13 +134,14 @@
  </div>
 
 
-    <div class="Comment-box">
-        <h1 style="text-align: center">The Comment Box</h1>
+    <div class="Comment-box" id="update-box">
+        <br>
+        <h1 style="text-align: center">Activity Log</h1>
         <h6 style="text-align: center; font-family: Orbitron;">'Cause I couldn't think of any other name :)</h6>
         <hr>
-		<div class="scrollable">
-             <div class="d-flex" style="padding: 0 5vw 0 5vw ;">
-                <div class="personal-blog">
+        <div class="d-flex" style="flex-wrap: wrap ;">
+                <div class="scrollable personal-blog">
+                    <h4 style="text-align:center;">Recent Blog Posts <a href="{% url 'blog' %}" target="_blank"  style="color: white;">&nearrow;</a></h4> <hr style="border-top: 1px solid white;">
                 {% for post in personal_blog %}
                     {% if post.category == 'update' or post.category == 'one_liner' or post.category == 'graffiti' or post.category == 'political' %}
                         <div class="unfoldable">
@@ -104,30 +152,21 @@
                     {% endif %}
                 {% endfor %}
                 </div>
-                <div class="project-update">
+                <div class="scrollable project-update">
+                    <h4 style="text-align:center;">Project Updates <a href="{% url 'blog' %}" target="_blank"  style="color: white;">&nearrow;</a></h4>
+                    <hr style="border-top: 1px solid white;">
                 {% for post in project_blog_posts %}
                     <div class="unfoldable">
-                            <h5 style="font-family: Cinzel;">{{ post.blog }} : Project Update</h5>
+                            <h5 style="font-family: Cinzel;">{{ post.blog }} :</h5>
                             {{post.post}}
                             <div style="text-align: right; margin-top: 10px;"> --Posted : {{ post.posted_at }}</div>
                     </div>
                     <hr>
                 {% endfor %}
                 </div>
-                 <div class="Public-Comment" style="float: right;">
-                     {% for comment in Comments %}
-                         <h6>{{comment.sender}} : </h6>
-                         <p>{{ comment.caption }}</p>
-                     {% endfor %}
-                 </div>
-                 </div>
         </div>
-            <form action="{% url 'comment' %}" method="post" role="form">
-                {% csrf_token %}
-                {% bootstrap_form form layout="vertical" size="small" show_label=False exclude="img,ved,link,url_caption" %}
-                <button class="btn btn-success" type="submit">Comment Publicly </button> &emsp;
-            </form>
-	</div>
+        <hr>
+    </div>
  <div class="About">
      <div class="d-flex" style="align-items: center; justify-content: flex-end; flex-wrap: wrap;">
          <div class="left">
@@ -175,7 +214,33 @@
     </div>
 </div>
 
+<div class="Comment-Section" style="background: white;">
 
+    <h1 style="text-align:center;">Public Comments</h1><hr>
+
+    <div class="d-flex" style="flex-wrap: wrap; ">
+
+        <div class="Comments" style="width: 50%;">
+            <h2 style="text-align:center;">Write a Comment</h2><hr>
+            <form id="comment-form" action="{% url 'comment' %}" method="post" role="form">
+                {% csrf_token %}
+                {% bootstrap_form form layout="vertical" size="small" show_label=False exclude="img,ved,link,url_caption" %}
+                <button class="btn btn-success" type="submit">Comment Publicly </button> or <a href="{% url 'contact' %}">Send a Direct Message</a>
+            </form>
+        </div>
+
+        <div class="scrollable Public-Comment" style="width: 50%;">
+             {% for comment in Comments %}
+                <div class="single-comment">
+                    <div class="d-flex"><p>[ {{ comment.posted_at }} ] &emsp; <h5>{{comment.sender}} :</h5> </p></div>
+                  <p>{{ comment.caption }}</p>
+                </div>
+                <hr>
+             {% endfor %}
+        </div>
+
+    </div>
+</div>
  <div class="Resume">
     See what I can do<br>
     <a href="#"> <button class="btn">Get my Resume</button></a><br>

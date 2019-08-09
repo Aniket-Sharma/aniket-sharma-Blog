@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.core.mail import send_mail
 
 from .models import *
@@ -36,24 +36,22 @@ class view_home_page(TemplateView):
 
         experiences = Experience.objects.all()
 
-        project_blog_posts = Project_Blog_Post.objects.all().order_by('-posted_at')
+        project_blog_posts = Project_Blog_Post.objects.all().order_by('posted_at')
 
-        personal_blog = Personal_Blog.objects.filter(privacy='public').order_by('-posted_at')
+        personal_blog = Personal_Blog.objects.filter(privacy='public').order_by('posted_at')
 
         args = {'personal_blog': personal_blog, 'project_blog_posts': project_blog_posts, 'experiences': experiences,
                 'Comments': public_comment, 'form': commentform}
 
         return render(request, self.template_name, args)
 
-def post_comment(request):
+    def post_comment(request):
 
-    form = CommentForm(request.POST)
+        form = CommentForm(request.POST)
 
-    form.save()
+        form.save()
 
-    print(request.POST['caption'])
-
-    return redirect('homepage')
+        return redirect('homepage')
 
 
 class view_about_page(TemplateView):
@@ -107,10 +105,14 @@ class view_contact_page(TemplateView):
     def contact_us(request):
         if request.method == 'POST':
             form = ContactForm(request.POST)
+
+            form.save()
+
             if form.is_valid():
                 sender_name = form.cleaned_data['name']
                 sender_email = form.cleaned_data['email']
                 message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
+                print(message)
                 send_mail('New Enquiry', message, sender_email, ['admin@example.com'])
         else:
             form = ContactForm()

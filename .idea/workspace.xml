@@ -2,410 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abede733-9ca7-4cc9-a55b-1549830575a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/home/jumbotron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/media/Images/Interests/1_tFbqYogOnqbRz1GT0uGzwg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/media/Images/Interests/apache.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/media/content/media/Images/Interests/1_tFbqYogOnqbRz1GT0uGzwg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/site_data/messages/20190618-191743-140307362733472.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/site_data/messages/20190618-191942-140307362443952.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_1oprvzA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_6WBTpG2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_MtNUHFj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_NHE3hwJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_NvYpaiy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/1_tFbqYogOnqbRz1GT0uGzwg_VVAycad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/Screencast_from_06-02-2019__yG0NoNL.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/TIME-TABLE_5TH_SEM.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/Time_Table.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/aniket-word-art.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/media/Projects/&lt;django.db.models.fields.CharField&gt;/apache.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/profile_view.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/portofolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/portofolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/910494.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/Ragnar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/Tyrion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/apache.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-1020315.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-1308624.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-268533.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-531880.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-747964.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/pexels-photo-988872.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/portofolio.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/raven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Dropbox-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Facebook-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Github-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/GooglePlus-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Hanghout-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Icons List.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Instagram-color.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Instagram-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/LinkedIn-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Messenger-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Skype-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Twitter-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Whatsapp-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Youtube-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/gm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/500 px black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/500 px black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/500 px color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/500 px color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/airbnb black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/airbnb black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/airbnb color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/airbnb color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/amazon black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/amazon black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/amazon color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/amazon color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/android black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/android black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/android color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/android color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/apple black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/apple black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/apple color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/apple color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bankin black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bankin black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bankin color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bankin color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/behance black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/behance black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/behance color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/behance color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bitly black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bitly black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bitly color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/bitly color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blackberry black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blackberry black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blackberry color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blackberry color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blogger black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blogger black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blogger color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/blogger color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/buffer black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/buffer black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/buffer color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/buffer color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/chrome black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/chrome black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/chrome color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/chrome color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/codepen black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/codepen black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/codepen color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/codepen color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dailymotion black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dailymotion black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dailymotion color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dailymotion color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dribbble black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dribbble black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dribbble color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dribbble color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/drive black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/drive black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/drive color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/drive color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dropbox black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dropbox black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dropbox color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/dropbox color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/envato black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/envato black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/envato color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/envato color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/evernote black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/evernote black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/evernote color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/evernote color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/facebook black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/facebook black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/facebook color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/facebook color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/fancy black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/fancy black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/fancy color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/fancy color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/feedly black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/feedly black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/feedly color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/feedly color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/firefox black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/firefox black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/firefox color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/firefox color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/flickr black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/flickr black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/flickr color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/flickr color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/foursquare black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/foursquare black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/foursquare color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/foursquare color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/github black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/github black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/github color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/github color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/google black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/google black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/google color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/google color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/googleplus black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/googleplus black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/googleplus color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/googleplus color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/hanghout black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/hanghout black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/hanghout color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/hanghout color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/instagram black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/instagram black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/instagram color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/instagram color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/internetexplorer black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/internetexplorer black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/internetexplorer color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/internetexplorer color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/invision black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/invision black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/invision color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/invision color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/linkedin black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/linkedin black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/linkedin color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/linkedin color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/magento black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/magento black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/magento color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/magento color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/medium black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/medium black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/medium color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/medium color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/messenger black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/messenger black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/messenger color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/messenger color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/opera black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/opera black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/opera color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/opera color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/paypal black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/paypal black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/paypal color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/paypal color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/periscope black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/periscope black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/periscope color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/periscope color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/photoshop black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/photoshop black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/photoshop color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/photoshop color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pinterest black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pinterest black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pinterest color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pinterest color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pocket black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pocket black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pocket color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/pocket color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/principle black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/principle black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/principle color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/principle color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/producthunt black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/producthunt black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/producthunt color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/producthunt color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rdio black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rdio black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rdio color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rdio color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/reddit black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/reddit black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/reddit color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/reddit color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rss black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rss black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rss color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/rss color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/safari black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/safari black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/safari color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/safari color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/scoopit black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/scoopit black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/scoopit color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/scoopit color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/shopify black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/shopify black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/shopify color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/shopify color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/sketch black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/sketch black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/sketch color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/sketch color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/skype black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/skype black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/skype color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/skype color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/slack black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/slack black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/slack color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/slack color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/snapchat black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/snapchat black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/snapchat color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/snapchat color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/soundcloud black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/soundcloud black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/soundcloud color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/soundcloud color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/spotify black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/spotify black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/spotify color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/spotify color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/stackoverflow black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/stackoverflow black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/stackoverflow color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/stackoverflow color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tinder black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tinder black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tinder color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tinder color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/trello black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/trello black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/trello color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/trello color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tumblr black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tumblr black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tumblr color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/tumblr color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/twitter black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/twitter black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/twitter color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/twitter color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viadeo black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viadeo black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viadeo color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viadeo color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viber black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viber black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viber color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/viber color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vimeo black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vimeo black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vimeo color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vimeo color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vine black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vine black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vine color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/vine color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/whatsapp black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/whatsapp black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/whatsapp color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/whatsapp color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/windowsphone black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/windowsphone black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/windowsphone color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/windowsphone color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/wordpress black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/wordpress black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/wordpress color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/wordpress color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/yelp black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/yelp black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/yelp color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/yelp color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/youtube black.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/youtube black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/youtube color.1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/icons/youtube color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/insta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/stackoverflow-color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/git.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/tw1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/wa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/transparent/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/wh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/git.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/gm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/insta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/wa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/white/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/apache.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/bagora.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/code.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/cu_haryana.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/dharmashala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/in_zoo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/sitting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/standing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron/walking.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/stories/delhi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/stories/first.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/stories/painting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/stories/swimming.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/temp_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-3.3.1.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper-utils.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper-utils.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper-utils.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/popper/popper.min.js.map" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -416,45 +22,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/home/homepage.html">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4635">
-              <caret line="418" selection-start-line="418" selection-end-line="418" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#nav#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+            <state relative-caret-position="1695">
+              <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/My_site/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="116" column="15" lean-forward="true" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -462,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="345">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -479,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -491,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="210">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -500,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/templates/home/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="175" column="30" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
@@ -515,7 +98,7 @@
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#3;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#1;n#div#3;n#!!top" expanded="true" />
-                <marker date="1564839517869" expanded="true" signature="159:284" ph="..." />
+                <marker date="1565336113530" expanded="true" signature="159:284" ph="..." />
               </folding>
             </state>
           </provider>
@@ -524,8 +107,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="1830">
+              <caret line="128" column="63" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -533,10 +119,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2745">
-              <caret line="185" column="55" lean-forward="true" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
+            <state relative-caret-position="467">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="147" column="41" lean-forward="true" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#4092#4101#1" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h4#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#4910#4919#0" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="e#8797#8803#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/portofolio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="106" column="40" lean-forward="true" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -565,21 +207,21 @@
       <list>
         <option value="$PROJECT_DIR$/My_site/settings.py" />
         <option value="$PROJECT_DIR$/My_site/urls.py" />
-        <option value="$PROJECT_DIR$/home/templates/home/portofolio.html" />
         <option value="$PROJECT_DIR$/home/templates/home/contact.html" />
         <option value="$PROJECT_DIR$/home/templates/home/footer.html" />
         <option value="$PROJECT_DIR$/home/templates/home/projects.html" />
         <option value="$PROJECT_DIR$/home/templates/home/homepage.html" />
         <option value="$PROJECT_DIR$/home/templates/home/about.html" />
-        <option value="$PROJECT_DIR$/home/templates/home/blog.html" />
         <option value="$PROJECT_DIR$/home/templates/home/jumbotron.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/home/forms.py" />
-        <option value="$PROJECT_DIR$/home/models.py" />
+        <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/home/admin.py" />
-        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/models.py" />
+        <option value="$PROJECT_DIR$/home/forms.py" />
         <option value="$PROJECT_DIR$/home/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/portofolio.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/blog.html" />
       </list>
     </option>
   </component>
@@ -594,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -602,10 +243,29 @@
               <item name="My_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_site" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="My_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_site" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_site" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_site" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,7 +313,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,25 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -728,25 +369,6 @@
           <folding>
             <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/portofolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,6 +402,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/My_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4635">
@@ -793,10 +422,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/home/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="345">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -808,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -818,18 +466,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="210">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="128" column="63" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="147" column="41" lean-forward="true" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#4092#4101#1" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#4910#4919#0" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="e#8797#8803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/home/portofolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="106" column="40" lean-forward="true" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/home/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="30" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
@@ -840,50 +560,8 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#1;n#div#3;n#!!top" expanded="true" />
-            <marker date="1564839517869" expanded="true" signature="159:284" ph="..." />
+            <marker date="1565336113530" expanded="true" signature="159:284" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="185" column="55" lean-forward="true" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="116" column="15" lean-forward="true" selection-start-line="116" selection-start-column="15" selection-end-line="116" selection-end-column="15" />
         </state>
       </provider>
     </entry>

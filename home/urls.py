@@ -12,7 +12,8 @@ urlpatterns = [
     path('blog/', my_blog.as_view(), name='blog'),
     path('contact/', view_contact_page.contact_us, name='contact'),
 
-    path('comment/', post_comment, name='comment')
+    path('comment/', view_home_page.post_comment, name='comment'),
+    path('message/', view_contact_page.contact_us, name='message'),
 ]
 
 if settings.DEBUG:
